@@ -161,3 +161,9 @@ WD-Workshop-Nitish/
 ```
 
 **Keep all your HTML files directly inside the root folder unless your teacher specifically asks for another structure.**
+---
+
+<p align="center">
+  Made with ❤️ by <strong>Nitish Kumar</strong>
+</p>
+
