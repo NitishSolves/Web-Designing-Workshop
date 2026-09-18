@@ -1,110 +1,88 @@
 <!DOCTYPE html>
-
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalogue Page</title>
-</head>
-
-<body>
-
-<center>
-
-<table border="1" width="100%">
-
-
-<tr>
-    <th colspan="6">
-        <h1>CATALOGUE PAGE</h1>
-    </th>
-</tr>
-
-<tr align="center">
-    <th>Sr No.</th>
-    <th>BOOK NAME</th>
-    <th>AUTHOR NAME</th>
-    <th>PUBLISHER</th>
-    <th>PRICE</th>
-    <th>ACTION</th>
-</tr>
-
-<tr align="center">
-    <td>1.</td>
-    <td>
-        <img src="https://books.google.com/books/content?id=ScJQAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-             alt="XML Bible Book"
-             width="100"
-             height="130">
-        <br>
-        XML Bible
-    </td>
-    <td>Winston</td>
-    <td>Wiley</td>
-    <td>$40.5</td>
-    <td>
-        <button>Add to Cart</button>
-    </td>
-</tr>
-
-<tr align="center">
-    <td>2.</td>
-    <td>
-        <img src="https://books.google.com/books/content?id=8jZBksh-bUMC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-             alt="Artificial Intelligence Book"
-             width="100"
-             height="130">
-        <br>
-        AI
-    </td>
-    <td>S. Russel</td>
-    <td>Princeton Hall</td>
-    <td>$63</td>
-    <td>
-        <button type="submit">Add to Cart</button>
-    </td>
-</tr>
-
-<tr align="center">
-    <td>3.</td>
-    <td>
-        <img src="https://books.google.com/books/content?id=saj_wnV2xXoC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-             alt="Java 2 Book"
-             width="100"
-             height="130">
-        <br>
-        Java 2
-    </td>
-    <td>Watson</td>
-    <td>BPB Publications</td>
-    <td>$35.5</td>
-    <td>
-        <button>Add to Cart</button>
-    </td>
-</tr>
-
-<tr align="center">
-    <td>4.</td>
-    <td>
-        <img src="https://m.media-amazon.com/images/I/51hdK2vXTVL.jpg"
-             alt="HTML in 24 Hours Book"
-             width="100"
-             height="130">
-        <br>
-        HTML in 24 Hours
-    </td>
-    <td>Sam Peter</td>
-    <td>Sam Publication</td>
-    <td>$50</td>
-    <td>
-        <button>Add to Cart</button>
-    </td>
-</tr>
-
-
-</table>
-
-</center>
-
-</body>
+<html>
+  <head>
+    <title>Registration Page</title>
+  </head>
+  <body>
+    <form>
+      <table>
+        <tr>
+          <td colspan="2">
+            <h1>
+              <center><u>Registration Form</u></center>
+            </h1>
+          </td>
+        </tr>
+        <tr>
+          <td>Name:</td>
+          <td><input type="text" name="name" /></td>
+        </tr>
+        <tr>
+          <td>Password:</td>
+          <td><input type="password" name="password" /></td>
+        </tr>
+        <tr>
+          <td>Email ID:</td>
+          <td><input type="text" name="email" /></td>
+        </tr>
+        <tr>
+          <td>Phone Number:</td>
+          <td><input type="text" name="phone" /></td>
+        </tr>
+        <tr>
+          <td>Sex:</td>
+          <td>
+            <input type="radio" name="sex" value="male" /> Male
+            <input type="radio" name="sex" value="female" /> Female
+          </td>
+        </tr>
+        <tr>
+          <td>Date of Birth:</td>
+          <td>
+            <select name="day">
+              <option>Day</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <!-- add more days-->
+            </select>
+            <select name="month">
+              <option>Month</option>
+              <option>Jan</option>
+              <option>Feb</option>
+              <option>Mar</option>
+              <!-- add more months-->
+            </select>
+            <select name="year">
+              <option>Year</option>
+              <option>1990</option>
+              <option>1991</option>
+              <option>1992</option>
+              <!-- add more years-->
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Languages Known:</td>
+          <td>
+            <input type="checkbox" name="lang" value="english" /> English
+            <input type="checkbox" name="lang" value="telugu" /> Telugu
+            <input type="checkbox" name="lang" value="hindi" /> Hindi
+            <input type="checkbox" name="lang" value="tamil" /> Tamil
+          </td>
+        </tr>
+        <tr>
+          <td>Address:</td>
+          <td><textarea name="address" rows="4" cols="30"></textarea></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit" value="Register" />
+            <input type="reset" value="Clear" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
 </html>
